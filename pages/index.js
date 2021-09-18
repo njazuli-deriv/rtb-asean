@@ -5,6 +5,7 @@ import PlayerDetails from "../components/PlayerDetails";
 import List from "../components/List";
 import axios from "axios";
 
+//change back to getstaticprops
 export async function getStaticProps() {
   const res = await fetch(
     `https://rtb.glueapi.io/v1/content?idParent=3147&sort=-data.episode_number/ns`
